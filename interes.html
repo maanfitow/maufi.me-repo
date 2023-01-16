@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Calculadora de Interés</title>
+	</head>
+	<body>
+		<div class="datos">
+			<a href="index.html">Home</a>
+			<h1>Interés compuesto</h1>
+			Valor inicial: <input type="number" id="valorInicial" value="700"/> Bs
+			<br/>
+			Interés: <input type="number" id="interes" value="7"/> %
+			<br/>
+			Tiempo: <input type="number" id="tiempo" value="180"/> días
+		</div>
+    <br/>
+    <button onclick="calcular()">Calcular</button>
+	<br/>
+	<div id="resultado">
+		<table>
+			<tr>
+				<th>Periodo</th>
+				<th>Ganancia</th>
+			</tr>
+		</table>
+		Interés calculado: <span id="interesCalculado"></span> Bs
+	</div>
+	</body>
+</html>
