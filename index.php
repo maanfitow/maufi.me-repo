@@ -11,9 +11,13 @@
         </div>
         <div class="opcion">
             <a href="maufi.me/calculadora.html">Tutorial</a>
-            <input id=""></form>
             
         </div>
     </div>
+    <?php
+        for($i = 0; $i <= 10; $i++){
+            echo "<h1>Chau</h1>";
+        }
+    ?>
 </body>
 </html>
